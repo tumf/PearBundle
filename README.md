@@ -17,6 +17,7 @@ Install
 
 * app/autoload.php
 
+
     // app/autoload.php
     $loader->registerNamespaces(array(
         // ...
