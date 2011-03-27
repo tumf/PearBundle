@@ -8,10 +8,14 @@ Install
     git submodule init
     git submodule update
 
+
+
      // app/AppKernel.php
      $bundles = array(
        new Tumf\PearBundle\PearBundle(),
      );
+
+
 
     // app/autoload.php
     $loader->registerNamespaces(array(
