@@ -9,14 +9,14 @@ Install
     git submodule update
 
 
-Bundleの登録
+### Register Bundle
 
      // app/AppKernel.php
      $bundles = array(
        new Tumf\PearBundle\PearBundle(),
      );
 
-オートロードへの追加
+### Add autload
 
     // app/autoload.php
     $loader->registerNamespaces(array(
@@ -29,17 +29,32 @@ Bundleの登録
 Usage
 -----
 
-PEAR command wrapper.
+### PEAR command wrapper.
 
 * pear:exec <command> [<args>.... ]
 * pear:init
- 
+
+### example
+
+setup pear
+
+    ./app/console pear:init
+
+
+discover pear channnel
+
+    ./app/console pear channel-discover openpear.org
+
+install Wozozo_Unko from openpear
+
+    ./app/console pear install openpear/Wozozo_Unko
+
 
 Configuraion
 ------------
 
-* app/config/config.yml:
+### app/config/config.yml
 
-     pear:
-       command: /path/to/pear
+    pear:
+      command: /path/to/pear
       
