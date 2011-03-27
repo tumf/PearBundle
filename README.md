@@ -17,9 +17,12 @@ Install
 
 * app/autoload.php
 
-     $loader->registerNamespaces(array(
-         Tumf\\PearBundle'      => __DIR__.'/../vendor/bundles',
-     ));
+    // app/autoload.php
+    $loader->registerNamespaces(array(
+        // ...
+        'Tumf\\PearBundle'      => __DIR__.'/../vendor/bundles',
+        // ...
+    ));
 
 
 Usage
@@ -29,7 +32,7 @@ PEAR command wrapper.
 
 * pear:exec <command> [<args>.... ]
 * pear:init
-
+ 
 
 Configuraion
 ------------
