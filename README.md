@@ -10,16 +10,16 @@ Install
 
 * app/AppKernel.php
 
-    $bundles = array(
-      new Tumf\PearBundle\PearBundle(),
-    );
+     $bundles = array(
+       new Tumf\PearBundle\PearBundle(),
+     );
         
 
 * app/autoload.php
 
-    $loader->registerNamespaces(array(
-        Tumf\\PearBundle'      => __DIR__.'/../vendor/bundles',
-    ));
+     $loader->registerNamespaces(array(
+         Tumf\\PearBundle'      => __DIR__.'/../vendor/bundles',
+     ));
 
 
 Usage
@@ -36,6 +36,6 @@ Configuraion
 
 * app/config/config.yml:
 
-    pear:
-      command: /path/to/pear
+     pear:
+       command: /path/to/pear
       
