@@ -1,16 +1,6 @@
 PearBundle
 ==========
 
-    // app/autoload.php
-    $loader->registerNamespaces(array(
-        // ...
-        'Behat\\Gherkin'        => __DIR__.'/../vendor/gherkin/src',
-        'Behat\\Behat'          => __DIR__.'/../vendor/behat/src',
-        'Behat\\BehatBundle'    => __DIR__.'/../vendor/bundles',
-        // ...
-    ));
-
-
 Install
 -------
 
@@ -24,10 +14,6 @@ Install
        new Tumf\PearBundle\PearBundle(),
      );
         
-
-* app/autoload.php
-
-
     // app/autoload.php
     $loader->registerNamespaces(array(
         // ...
