@@ -11,18 +11,14 @@ Install
 * app/AppKernel.php
 
     $bundles = array(
-      ...
       new Tumf\PearBundle\PearBundle(),
-      ...
     );
         
 
 * app/autoload.php
 
     $loader->registerNamespaces(array(
-        ...
         Tumf\\PearBundle'      => __DIR__.'/../vendor/bundles',
-        ...
     ));
 
 
