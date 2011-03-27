@@ -9,13 +9,14 @@ Install
     git submodule update
 
 
+Bundleの登録
 
      // app/AppKernel.php
      $bundles = array(
        new Tumf\PearBundle\PearBundle(),
      );
 
-
+オートロードへの追加
 
     // app/autoload.php
     $loader->registerNamespaces(array(
