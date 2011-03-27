@@ -16,7 +16,7 @@ Install
        new Tumf\PearBundle\PearBundle(),
      );
 
-### Add autload
+### Add autoload
 
     // app/autoload.php
     $loader->registerNamespaces(array(
