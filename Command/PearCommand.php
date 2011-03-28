@@ -38,7 +38,7 @@ class PearCommand extends Command
     /**
      * @see Command
      *
-     * @throws \InvalidArgumentException When the target directory does not exist
+     * @throws \InvalidArgumentException When the app/.pearrc file does not exist
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
