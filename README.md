@@ -45,7 +45,7 @@ discover pear channnel
 
     ./app/console pear channel-discover openpear.org
 
-install Wozozo_Unko from openpear
+install Acme_Morningmusume from openpear
 
     ./app/console pear install openpear/Acme_Morningmusume
 
