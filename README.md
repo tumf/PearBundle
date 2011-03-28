@@ -47,8 +47,19 @@ discover pear channnel
 
 install Wozozo_Unko from openpear
 
-    ./app/console pear install openpear/Wozozo_Unko
+    ./app/console pear install openpear/Acme_Morningmusume
 
+add autoload.php
+
+    $loader->registerPrefixes(array(
+        //...
+        'Acme_'                            => __DIR__.'/../vendor/pear/php',
+    ));
+
+use
+
+    $mm = new \Acme_MorningMusume;
+    var_dump($mm->members);
 
 Configuraion
 ------------
